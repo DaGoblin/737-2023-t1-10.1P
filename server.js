@@ -29,7 +29,7 @@ if (process.env.NODE_ENV !== "production") {
 }
 
 app.get("/", (req, res) => {
-    res.send("Calculator Microservice");
+    res.send("If you are seeing this the Calculator Microservice is running on the Google Cloud Platform");
 });
 
 const add = (num1, num2) => {
